@@ -1,0 +1,5 @@
+psql
+CREATE DATABASE railwaydb;
+CREATE USER yourusername WITH PASSWORD 'yourpassword';
+GRANT ALL PRIVILEGES ON DATABASE railwaydb TO yourusername;
+\q
